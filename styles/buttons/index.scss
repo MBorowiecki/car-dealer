@@ -1,0 +1,20 @@
+.btn {
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+
+    &-bg {
+        background-color: $themeColor1;
+    }
+
+    &-clear {
+        background-color: transparent;
+
+        transition: background-color 200ms;
+
+        &:hover {
+            background-color: $themeColor1;
+        }
+    }
+}

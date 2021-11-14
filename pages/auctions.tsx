@@ -3,11 +3,11 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Header from '../common/components/Header';
 
-const Home: NextPage = () => {
+const Auctions: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Home page</title>
+        <title>Auctions</title>
       </Head>
 
       <Header />
@@ -19,4 +19,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Auctions

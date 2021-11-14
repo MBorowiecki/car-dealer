@@ -1,0 +1,17 @@
+.nav_bar {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    background-color: $themeColor1;
+    padding: 1rem;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 10px -5px $themeColor1;
+}

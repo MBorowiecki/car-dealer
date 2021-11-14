@@ -1,0 +1,27 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &-hcenter {
+        justify-content: center;
+    }
+
+    &-vcenter {
+        align-items: center;
+    }
+}
+
+@for $i from 0 to $gridColumnsCount {
+    .col-#{$i} {
+        flex: 1 0 ((100% / $gridColumnsCount) * $i);
+        max-width: ((100% / $gridColumnsCount) * $i);
+    }
+}
+
+.col {
+    &-auto {
+        flex: 1 0 auto;
+        max-width: fit-content;
+    }
+}

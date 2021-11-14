@@ -1,0 +1,61 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 14px;
+
+    background-color: $themeColor4;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@for $i from 0 to 19 {
+  .m-#{$i} {
+    margin: $gridSpacing * $i;
+  }
+
+  .mt-#{$i} {
+    margin-top: $gridSpacing * $i;
+  }
+
+  .mr-#{$i} {
+    margin-right: $gridSpacing * $i;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: $gridSpacing * $i;
+  }
+
+  .ml-#{$i} {
+    margin-left: $gridSpacing * $i;
+  }
+
+  .p-#{$i} {
+    padding: $gridSpacing * $i;
+  }
+
+  .pt-#{$i} {
+    padding-top: $gridSpacing * $i;
+  }
+
+  .pr-#{$i} {
+    padding-right: $gridSpacing * $i;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: $gridSpacing * $i;
+  }
+
+  .pl-#{$i} {
+    padding-left: $gridSpacing * $i;
+  }
+}
