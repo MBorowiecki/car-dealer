@@ -1,0 +1,18 @@
+.input {
+    border: none;
+    background-color: $themeColor6;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    outline: none;
+
+    transition: background-color 150ms, box-shadow 150ms;
+
+    &:focus {
+        background-color: $themeColor9;
+        box-shadow: 0px 0px 10px 0px $themeColor2;
+    }
+
+    &::placeholder{
+        font-style: italic;
+    }
+}

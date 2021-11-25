@@ -1,0 +1,51 @@
+export const carNames = {
+    Yotoya: [
+        "GT",
+        "EA86",
+        "Pusra",
+        "Cilcea",
+        "Big Touring",
+        "Cruising Lander",
+        "Gyoya",
+        "Siray",
+        "HR-C",
+        "Rymac",
+        "Rolloca",
+        "Lowland",
+        "Highluxury",
+        "Uspri",
+        "VAR-X4"
+    ],
+    Kuzusi: [
+        "Rossac",
+        "Nisig",
+        "Aces",
+        "Jimmey",
+        "CrossX4",
+        "Tavira",
+        "Feetis"
+    ],
+    WMB: [
+        "e3",
+        "e4",
+        "e8",
+        "eAT",
+        "eAT3",
+        "Line 1",
+        "Line 2",
+        "Line 3",
+        "Line 4",
+        "Line 5",
+        "Line 6",
+        "Line 7",
+        "Line 8",
+        "AT1",
+        "AT2",
+        "AT3",
+        "AT4",
+        "AT5",
+        "AT6",
+        "AT7",
+        "K4"
+    ]
+}

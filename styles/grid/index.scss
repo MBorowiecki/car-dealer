@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 .row {
     display: flex;
     flex-direction: row;
@@ -12,10 +14,10 @@
     }
 }
 
-@for $i from 0 to $gridColumnsCount {
+@for $i from 0 to $gridColumnsCount + 1 {
     .col-#{$i} {
-        flex: 1 0 ((100% / $gridColumnsCount) * $i);
-        max-width: ((100% / $gridColumnsCount) * $i);
+        flex: 1 0 (math.div(100%, $gridColumnsCount) * $i);
+        max-width: (math.div(100%, $gridColumnsCount) * $i);
     }
 }
 

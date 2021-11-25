@@ -1,0 +1,55 @@
+export default {
+    dateCreated: new Date('2021-11-16T15:45:00'),
+    name: "Server #1",
+    yearDuration: 1000 * 60 * 60 * 24 * 7, // 1000ms * 60s * 60m * 24h * 7d = 7d
+    yearlyStats: [
+        {
+            yearStart: 0,
+            yearEnd: 5,
+            carsDesigned: 2,
+            enginesDesigned: 1,
+            maxEngineCapacity: 10000,
+            maxEnginePower: 150,
+            minEnginePower: 30,
+            carsProduced: 20,
+            minCarPrice: 1000,
+            maxCarPrice: 40000,
+        },
+        {
+            yearStart: 6,
+            yearEnd: 8,
+            carsDesigned: 3,
+            enginesDesigned: 1,
+            maxEngineCapacity: 8000,
+            maxEnginePower: 200,
+            minEnginePower: 35,
+            carsProduced: 50,
+            minCarPrice: 10000,
+            maxCarPrice: 100000,
+        },
+        {
+            yearStart: 9,
+            yearEnd: 14,
+            carsDesigned: 5,
+            enginesDesigned: 2,
+            maxEngineCapacity: 7000,
+            maxEnginePower: 350,
+            minEnginePower: 50,
+            carsProduced: 100,
+            minCarPrice: 30000,
+            maxCarPrice: 500000,
+        },
+        {
+            yearStart: 15,
+            yearEnd: 25,
+            carsDesigned: 7,
+            enginesDesigned: 1,
+            maxEngineCapacity: 6300,
+            maxEnginePower: 600,
+            minEnginePower: 65,
+            carsProduced: 200,
+            minCarPrice: 40000,
+            maxCarPrice: 800000,
+        }
+    ]
+}

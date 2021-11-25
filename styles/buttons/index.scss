@@ -1,11 +1,16 @@
 .btn {
-    padding: .5rem 1rem;
+    padding: 1rem 1.5rem;
     border: none;
     outline: none;
     text-transform: uppercase;
+    border-radius: 10px;
 
     &-bg {
         background-color: $themeColor1;
+
+        &_2 {
+            background: linear-gradient(90deg, #b615df 0%, #d136a8 100%);
+        }
     }
 
     &-clear {
@@ -15,6 +20,16 @@
 
         &:hover {
             background-color: $themeColor1;
+        }
+
+        &_2 {
+            background-color: transparent;
+    
+            transition: background-color 200ms;
+
+            &:hover {
+                background-color: rgba($themeColor1, .2);
+            }
         }
     }
 }

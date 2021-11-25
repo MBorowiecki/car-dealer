@@ -40,6 +40,15 @@ const CarSchema = new mongoose.Schema({
     yearProduced: {
         type: Number,
         required: true
+    },
+    generation: {
+        type: Number,
+        required: true,
+        default: 1
+    },
+    discontinued: {
+        type: Boolean,
+        default: false
     }
 })
 

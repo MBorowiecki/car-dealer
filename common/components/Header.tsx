@@ -1,4 +1,5 @@
 import { RiAuctionFill, RiHomeFill, RiCarFill } from 'react-icons/ri'
+import { GiHomeGarage } from 'react-icons/gi';
 import Link from 'next/link'
 
 const Header: React.FC = () => {
@@ -24,6 +25,14 @@ const Header: React.FC = () => {
                 <Link href="/cars">
                     <button className="btn btn-clear">
                         <RiCarFill className="size-xxl color-light_1 weight-semibold"></RiCarFill>
+                    </button>
+                </Link>
+            </div>
+
+            <div className="mr-2">
+                <Link href="/garage">
+                    <button className="btn btn-clear">
+                        <GiHomeGarage className="size-xxl color-light_1 weight-semibold"></GiHomeGarage>
                     </button>
                 </Link>
             </div>

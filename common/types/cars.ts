@@ -9,7 +9,9 @@ export interface ICar {
     engineId: string,
     productionPrice: number,
     ownersCount: number,
-    yearProduced: number
+    yearProduced: number,
+    discontinued: boolean,
+    generation: number,
 }
 
 export interface ICarManufacturer {
@@ -23,5 +25,6 @@ export interface ICarEngine {
     fuelType: string,
     capacity: string,
     condition: number,
-    power: number
+    power: number,
+    yearDesigned: number
 }

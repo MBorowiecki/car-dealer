@@ -11,6 +11,10 @@ p, h1, h2, h3, h4, h5, h6 {
     font-size: $fontSizeH2;
 }
 
+.h3 {
+    font-size: $fontSizeH3;
+}
+
 .size {
     &-xxxl {
         font-size: $fontSizeXxxl;
@@ -57,6 +61,10 @@ p, h1, h2, h3, h4, h5, h6 {
     &-light_2 {
         color: $fontColor2;
     }
+
+    &-money_1 {
+        color: $fontColor3;
+    }
 }
 
 .weight {
@@ -85,4 +93,8 @@ p, h1, h2, h3, h4, h5, h6 {
     &-right {
         text-align: right;
     }
+}
+
+.line-through {
+    text-decoration: line-through;
 }

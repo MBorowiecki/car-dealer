@@ -20,6 +20,10 @@ const EngineSchema = new mongoose.Schema({
     power: {
         type: Number,
         required: true,
+    },
+    yearDesigned: {
+        type: Number,
+        required: true
     }
 })
 

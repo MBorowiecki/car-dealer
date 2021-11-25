@@ -4,19 +4,19 @@ import Head from 'next/head';
 import Header from '../common/components/Header';
 
 const Auctions: NextPage = () => {
-  return (
-    <div>
-      <Head>
-        <title>Auctions</title>
-      </Head>
+    return (
+        <div className="container align-center">
+            <Head>
+                <title>Auctions</title>
+            </Head>
 
-      <Header />
+            <Header />
 
-      <main>
+            <main>
 
-      </main>
-    </div>
-  )
+            </main>
+        </div>
+    )
 }
 
 export default Auctions

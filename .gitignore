@@ -35,3 +35,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# config files
+/server/config/db.ts
+/server/config/serverKeyword.ts
